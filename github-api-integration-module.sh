@@ -1,6 +1,6 @@
 #!/bin/bash
 ################################
-# Author: Abhishek
+# Author: Sudeepsarpe
 # Version: v1
 #
 #
@@ -12,7 +12,7 @@
 ################################
 
 if [ ${#@} -lt 2 ]; then
-    echo "usage: $0 [your github token] [REST expression]"
+    echo "usage: $0 [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] [repos]"
     exit 1;
 fi
 
